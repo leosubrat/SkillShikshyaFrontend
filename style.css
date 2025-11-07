@@ -1,0 +1,61 @@
+.container-1 {
+  display: flex;
+  gap: 25px;
+}
+
+.box {
+  background-color: greenyellow;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+:root {
+  --red-box: red;
+  --blue-box: blue;
+  --green-box: green;
+  --yellow-box: yellow;
+  --pink-box: pink;
+}
+
+.box1 {
+  background-color: var(--red-box);
+}
+
+.box2 {
+  background-color: var(--yellow-box);
+}
+
+.box3 {
+  background-color: var(--blue-box);
+}
+
+.box4 {
+  background-color: var(--pink-box);
+}
+
+.box5 {
+  background-color: var(--green-box);
+}
+
+@media screen and (max-width: 900px) {
+  .box1 {
+    background-color: var(--yellow-box);
+  }
+
+  .box2 {
+    background-color: var(--red-box);
+  }
+
+  .box3 {
+    background-color: var(--pink-box);
+  }
+
+  .box4 {
+    background-color: var(--greem-box);
+  }
+
+  .box5 {
+    background-color: var(--blue-box);
+  }
+}
